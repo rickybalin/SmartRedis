@@ -32,7 +32,7 @@ CWD := $(shell pwd)
 # Params for third-party software
 HIREDIS_URL := https://github.com/redis/hiredis.git
 HIREDIS_VER := v1.2.0
-RPP_URL := https://github.com/sewenew/redis-plus-plus.git
+RPP_URL := https://github.com/rickybalin/redis-plus-plus.git
 RPP_VER := 1.3.10
 PYBIND_URL := https://github.com/pybind/pybind11.git
 PYBIND_VER := v2.11.1
