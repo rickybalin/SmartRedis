@@ -1,11 +1,14 @@
 # Changelog
 
-### Development branch
+### 0.5.3
 
-To be released at some future point in time
+Released on 14 May 2024
 
 Description
 
+-   Improve client error logging
+-   Fix pylint regression error
+-   Fix build wheel error
 -   Fix header styling issue
 -   Correct changelog indention
 -   Automate the creation of release notes
@@ -27,6 +30,12 @@ Description
 
 Detailed Notes
 
+-   Ensure errors raised from client include details
+    ([PR485](https://github.com/CrayLabs/SmartRedis/pull/485))
+-   Pin pylint to fix regression error
+    ([PR492](https://github.com/CrayLabs/SmartRedis/pull/492))
+-   Add cstdint import to fix ubuntu with gcc wheel build
+    ([PR491](https://github.com/CrayLabs/SmartRedis/pull/491))
 -   Incorrect lineup of the changelog page index. This fixes the header
     sizes to avoid this issue.
     ([PR489](https://github.com/CrayLabs/SmartRedis/pull/489))
