@@ -105,8 +105,8 @@ set_target_properties(libhiredis PROPERTIES
 
 # Define redis++ as an external project
 ExternalProject_Add(redis++
-    GIT_REPOSITORY https://github.com/sewenew/redis-plus-plus.git
-    GIT_TAG 1.3.10
+    GIT_REPOSITORY https://github.com/rickybalin/redis-plus-plus.git
+    GIT_TAG 1.3.10_rb
     GIT_SHALLOW 1
     INSTALL_COMMAND make install PREFIX=${CMAKE_INSTALL_PREFIX}
     CMAKE_ARGS -DREDIS_PLUS_PLUS_BUILD_TEST=OFF
